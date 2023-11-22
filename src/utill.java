@@ -39,7 +39,7 @@ public class utill {
 
     public static boolean isDone(ArrayList<Integer> deck) {
 
-        // loop through the deck.
+        // look through the deck.
         if (deck.containsAll(Arrays.asList(1,2,3,4,5,6,7,8,9))){
             return true;
         }
